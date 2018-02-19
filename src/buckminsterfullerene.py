@@ -400,4 +400,3 @@ class buckminsterfullerene(object):
         #: Increment the iteration
         self.iteration += 1
 
-
