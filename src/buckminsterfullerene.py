@@ -1,4 +1,15 @@
 # -*- coding: utf-8 -*-
+"""
+@project: buckminsterfullerene
+@descr:   A library for creating various features from a given dataframe
+@author:  eyazici
+@author:  Emre YAZICI
+@email:   yaziciemre@gmail.com 
+@website: www.yaziciemre.com
+@licence: BSD 3-Clause License
+@version: 001
+@changes: * Initial version
+"""
 
 ## Imports
 import pandas as pd # Data related Operations
@@ -399,4 +410,3 @@ class buckminsterfullerene(object):
             del self.dataFrame[ COLUMN_TEMP ]
         #: Increment the iteration
         self.iteration += 1
-
